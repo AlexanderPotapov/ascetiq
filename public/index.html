@@ -10,9 +10,7 @@
 	if(window.location.hash) {
 	 
 	} else {
-	window.location.hash = $(this).attr('href')
-                            .substr(0,$(this).attr('href').length-5)
-                            + Math.random(); 
+	window.location.hash = Math.random(); 
 	}</script>
 	<script src="js/vendor/requirejs-2.3.6/require.js"></script>
 
