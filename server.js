@@ -1,12 +1,8 @@
 #!/usr/bin/env node
 
-var http = require('http');  
-const { URL } = require('url');  
-
 const
 	files = require('node-static'),
 	port = process.env.PORT || 8080,
-    urlParams = new URLSearchParams('#abra2:alpha94'),
 	path = require('path');
 
 var
