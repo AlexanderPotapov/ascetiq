@@ -49,6 +49,7 @@ body, html {
 
 #chat li .timestamp {
 	color: #A0A00A;
+	display: none;
 }
 
 /* Message types */
