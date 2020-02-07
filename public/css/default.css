@@ -85,10 +85,10 @@ body, html {
 	outline: 0;
 	height: 35px;
 	padding: 5px 5px 5px 15px;
-	color: #000;
+	color: #fff;
 	font-family: Consolas, "Lucida Console", "DejaVu Sans Mono", Monaco, monospace;
-	background-color: #fafafa;
-	border-top: 2px solid #d0d0d0;
+	background-color: #000;
+	border-top: 2px solid #212121;
 }
 
 #input { z-index: 1; }
