@@ -3,7 +3,7 @@
 define({
 
 	help: '<pre>                                                                \n' +
-		'Enignum, encrypted instant chat.                                      \n' +
+		'Cryptalk, encrypted instant chat.                                      \n' +
 		'                                                                       \n' +
 		'----------------------------------------------------------------------	\n' +
 		'                                                                       \n' +
