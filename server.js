@@ -21,13 +21,6 @@ server = require('http').createServer(function (req, res) {
 // Append socket.io to http server
 io = require('socket.io')(server),
 
-app.get('*',function(req,res,next){
-  if(req.headers['x-forwarded-proto']!='https')
-    res.redirect('https://ascetiq.com'+req.url)
-  else
-    next() /* Continue to other routes if we're not redirecting */
-})
-
 // Listen to port env:PORT or 8080
 server.listen(port, function(){
 	console.log('listening on *:' + port);
