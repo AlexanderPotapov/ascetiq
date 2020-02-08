@@ -1,12 +1,5 @@
 #!/usr/bin/env node
 
-app.get('*',function(req,res,next){
-  if(req.headers['x-forwarded-proto']!='https')
-    res.redirect('https://ascetiq.com'+req.url)
-  else
-    next() /* Continue to other routes if we're not redirecting */
-})
-
 const
 	files = require('node-static'),
 	port = process.env.PORT || 8080,
