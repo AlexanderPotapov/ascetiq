@@ -1,23 +1,11 @@
 #!/usr/bin/env node
 
-var express = require('express'),
-   env = process.env.NODE_ENV || 'development';
-
- var forceSsl = function (req, res, next) {
-    if (req.headers['x-forwarded-proto'] !== 'https') {
-        return res.redirect(['https://', req.get('Host'), req.url].join(''));
-    }
-    return next();
- };
-
- app.configure(function () {
-
-    if (env === 'production') {
-        app.use(forceSsl);
-    }
-
-    // other configurations etc for express go here...
-}
+app.get('*',function(req,res,next){
+  if(req.headers['x-forwarded-proto']!='https')
+    res.redirect('https://ascetiq.com'+req.url)
+  else
+    next() /* Continue to other routes if we're not redirecting */
+})
 
 const
 	files = require('node-static'),
