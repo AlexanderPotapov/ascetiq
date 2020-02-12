@@ -9,18 +9,18 @@ html {
 
 *, *:before, *:after {
 	box-sizing: inherit;
-	font-family: Consolas, "Lucida Console", "DejaVu Sans Mono", Monaco, monospace;
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Helvetica Neue", Arial, sans-serif;
 	font-size: 13px;
 }
 
 body, html {
 	min-height: 100%;
 	min-width: 600px;
-	background-color: #181A1D;
+	background-color: #f0f0f0;
 	overflow: hidden;
 	padding: 0px;
 	margin:0px;
-	color: #00DD00;
+	color: #555;
 }
 
 .good 		{ color: #99FF99; }
@@ -39,16 +39,18 @@ body, html {
 	list-style-type: none;
 	padding:0;
 	margin:0;
+	border-bottom: 1px solid #c9c9c9;
+	padding-bottom: 5px;
 }
 
 /* Messages */
 #chat li {
 	padding: 2px 15px;
-	color: #808008;
+	color: #999;
 }
 
 #chat li .timestamp {
-	color: #A0A00A;
+	color: #999;
 	display: none;
 }
 
@@ -58,22 +60,22 @@ body, html {
 	font-style: normal;
 }
 #chat i.motd	{ color: #99FF99; display:inline-block; line-height: 12px !important; }
-#chat i.info	{ color: #999999; }
+#chat i.info	{color: #999;}
 #chat i.server	{ color: #99FFFF; }
 #chat i.error	{ color: #ff7777; }
-#chat i.message	{ color: #eeeeee; }
-#chat i.nick	{ color: #99FF99; }
+#chat i.message	{color: #555;}
+#chat i.nick	{color: #747474;font-weight: bold;}
 #chat i.fatal	{ color: #ff7777; }
 
 /*------------------------------------*\
 	INPUT & LOADER
 \*------------------------------------*/
 #input_wrapper {
-	right:0;
-	bottom:0;
-	left:0;
+	right: 5px;
+	bottom: 5px;
+	left: 5px;
 	position: absolute;
-	height: 35px;
+	height: 37px;
 }
 
 #input,
@@ -86,14 +88,11 @@ body, html {
 	outline: 0;
 	height: 35px;
 	padding: 5px 5px 5px 15px;
-	color: #fff;
-	font-family: Consolas, "Lucida Console", "DejaVu Sans Mono", Monaco, monospace;
-	background-color: #000;
-	border-top: 2px solid #9a9a9a;
+	color: #1d1d1f;
 }
 
-#input { z-index: 1; }
-#loader { z-index: 0; line-height: 20px; font-size: 14px; font-weight: 100; font-family: tahoma;}
+#input {border: 1px solid #d9d9d9;z-index: 1;border-radius: 20px;background: #fff;}
+#loader {z-index: 0;line-height: 20px;font-size: 14px;font-weight: 100;font-family: tahoma;}
 
 /*------------------------------------*\
 	SPINNER
