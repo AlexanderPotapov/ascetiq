@@ -46,11 +46,11 @@ body, html {
 /* Messages */
 #chat li {
 	padding: 2px 15px;
-	color: #999;
+	color: #777;
 }
 
 #chat li .timestamp {
-	color: #999;
+	color: #777;
 	display: none;
 }
 
@@ -59,13 +59,13 @@ body, html {
 #chat i {
 	font-style: normal;
 }
-#chat i.motd	{ color: #99FF99; display:inline-block; line-height: 12px !important; }
-#chat i.info	{color: #999;}
-#chat i.server	{ color: #99FFFF; }
-#chat i.error	{ color: #ff7777; }
+#chat i.motd	{ color: #777; display:inline-block; line-height: 12px !important; }
+#chat i.info	{color: #777;}
+#chat i.server	{ color: #777; }
+#chat i.error	{ color: #777; }
 #chat i.message	{color: #555;}
 #chat i.nick	{color: #747474;font-weight: bold;}
-#chat i.fatal	{ color: #ff7777; }
+#chat i.fatal	{ color: #777; }
 
 /*------------------------------------*\
 	INPUT & LOADER
