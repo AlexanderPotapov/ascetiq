@@ -1,5 +1,9 @@
 // The templating function only supports variables.
 // Define a variable as so: {variable_name}
+
+var nicks = ['Rock', 'Paper', 'Scissor'];
+var nick = nicks[Math.floor(Math.random()*things.length)];
+
 define({
 
 	help: '<pre>                                                                \n' +
@@ -40,7 +44,7 @@ define({
 		'----------------------------------------------------------------------	\n' +
 		'</pre>',
 
-	default_nick: 'Anonymous',
+	default_nick: '{nick}',
 
 	// All post templates will have access to the properties in the 'settings' module, 
 	// along with the current nick, room, mute-status and of course the message ('text').
