@@ -14,8 +14,7 @@ define({
         are encrypted in your browser by random key or key that you have set. ¯\_(ツ)_/¯
         <br /><br/>Try /help, /nick, /title, /count ...<br /><br/>
 		<hr />
-        </li>
-	',
+        </li>',
 
 	nick: {
 		maxLen: 20,
