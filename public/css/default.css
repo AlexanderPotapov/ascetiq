@@ -33,31 +33,32 @@ body, html {
     
 	@-moz-keyframes colorchange 
 	{
-	      0%   {background: #ff9a9e;}
-	      33%  {background: #80d0c7;}
-	      66%  {background: #B7F8DB;}
-	      100%  {background: #09203f;}
+	      0%   {background: #24c6dc;}
+	      33%  {background: #514A9D;}
+	      66%  {background: #5f2c82;}
+	      100%  {background: #49a09d;}
 	}
 	@-o-keyframes colorchange 
 	{
-	      0%   {background: #ff9a9e;}
-	      33%  {background: #80d0c7;}
-	      66%  {background: #B7F8DB;}
-	      100%  {background: #09203f;}
+	      0%   {background: #24c6dc;}
+	      33%  {background: #514A9D;}
+	      66%  {background: #5f2c82;}
+	      100%  {background: #49a09d;}
 	      	}
     @keyframes colorchange
     {
-	      0%   {background: #ff9a9e;}
-	      33%  {background: #80d0c7;}
-	      66%  {background: #B7F8DB;}
-	      100%  {background: #09203f;}    }
-
+	      0%   {background: #24c6dc;}
+	      33%  {background: #514A9D;}
+	      66%  {background: #5f2c82;}
+	      100%  {background: #49a09d;}
+	}
     @-webkit-keyframes colorchange
     {
-	      0%   {background: #ff9a9e;}
-	      33%  {background: #80d0c7;}
-	      66%  {background: #B7F8DB;}
-	      100%  {background: #09203f;}    }
+	      0%   {background: #24c6dc;}
+	      33%  {background: #514A9D;}
+	      66%  {background: #5f2c82;}
+	      100%  {background: #49a09d;}
+	      }
     
 ::-webkit-input-placeholder { /* Edge */
   color: #eee;
