@@ -32,6 +32,7 @@
   "bin": "./server.js",
   "dependencies": {
     "node-static": "*",
+    "requirejs": "*",
     "socket.io": "^2.2.0"
   },
   "os": [
