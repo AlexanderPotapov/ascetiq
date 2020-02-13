@@ -16,5 +16,5 @@
         }
     ],
     name: "main",
-    out: "public/js/cryptalk.min.js"
+    out: "public/js/ascetiq.min.js"
 })
