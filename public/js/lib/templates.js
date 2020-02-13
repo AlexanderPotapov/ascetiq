@@ -117,4 +117,4 @@ define({
 	client: {
 		title: 					'Ascetiq - Offline'
 	}
-});
+}); 
