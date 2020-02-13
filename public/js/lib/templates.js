@@ -46,11 +46,11 @@ define({
 	// along with the current nick, room, mute-status and of course the message ('text').
 	post: {
 				motd: 		'<li id="{id}" style="animation: fadeOut{id} ease 60s; -webkit-animation: fadeOut{id} ease 60s; -moz-animation: fadeOut{id} ease 60s; -o-animation: fadeOut{id} ease 60s; -ms-animation: fadeOut{id} ease 60s; 
-		| @keyframes fadeOut{id} {0% {opacity:1;}100% {opacity:0;}}
-		| @-moz-keyframes fadeOut{id} {0% {opacity:1;}100% {opacity:0;}}
-		| @-webkit-keyframes fadeOut{id} {0% {opacity:1;}100% {opacity:0;}}
-		| @-o-keyframes fadeOut{id} {0% {opacity:1;}100% {opacity:0;}}
-		| @-ms-keyframes fadeOut{id} {0% {opacity:1;}100% {opacity:0;}}
+		 @keyframes fadeOut{id} `{0% {opacity:1;}100% {opacity:0;}}`
+		 @-moz-keyframes fadeOut{id} `{0% {opacity:1;}100% {opacity:0;}}`
+		 @-webkit-keyframes fadeOut{id} `{0% {opacity:1;}100% {opacity:0;}}`
+		 @-o-keyframes fadeOut{id} `{0% {opacity:1;}100% {opacity:0;}}`
+		 @-ms-keyframes fadeOut{id} `{0% {opacity:1;}100% {opacity:0;}}`
 "><i class="motd">{text}</i></li>',
 
 
