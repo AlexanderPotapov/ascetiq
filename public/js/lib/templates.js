@@ -66,7 +66,7 @@ define({
 		nick_to_long: 			'Nickname is too long, it can be at most {nick_maxLen} characters long. Try again.',
 		nick_set: 				'From now on, you\'re referred to as \'{nick}\'.',
 
-		msg_no_room: 			'You have to join a room before sending messages. See /help.',
+		msg_no_room: 			'You have to join a room before sending messages. Try refresh this page. See /help.',
 		not_in_room: 			'You have to be in a room to count participants...',
 		msg_no_key: 			'You have to set an encryption key before sending a message. See /help.',
 		leave_from_nowhere: 	'How are you supposed to leave, while being nowhere?',
