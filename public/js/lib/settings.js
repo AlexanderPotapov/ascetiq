@@ -4,10 +4,7 @@ define({
 
 	ttl: 600000,
 
-	motd: '<pre>' +
-		' Tip of the day: /help' +
-		' ' +
-		'</pre>',
+	motd: '',
 
 	nick: {
 		maxLen: 20,
