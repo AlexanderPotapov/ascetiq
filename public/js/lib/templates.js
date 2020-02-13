@@ -7,7 +7,7 @@ var nick = nicks[Math.floor(Math.random()*things.length)];
 define({
 
 	help: '<pre>                                                                \n' +
-		'Ascetiq, encrypted instant chat.                                      \n' +
+		'Ascetiq — encrypted instant chat.                                      \n' +
 		'                                                                       \n' +
 		'----------------------------------------------------------------------	\n' +
 		'                                                                       \n' +
