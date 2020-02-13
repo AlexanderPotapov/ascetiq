@@ -33,40 +33,40 @@ body, html {
     
 	@-moz-keyframes colorchange 
 	{
-	      0%   {background: #24c6dc;}
-	      25%  {background: #514A9D;}
-	      45%  {background: #ff9a9e;}
-	      65%  {background: #ff7eb3;}
-	      80%  {background: #50c9c3;}	     
-	      100% {background: #24c6dc;}
+	      0%   {background: #FF9A9E;}
+	      25%  {background: #FF7EB3;}
+	      45%  {background: #9467C1;}
+	      65%  {background: #EE9CA7;}
+	      80%  {background: #FCB69F;}	     
+	      100% {background: #FF9A9E;}
 	}
 	@-o-keyframes colorchange 
 	{
-	      0%   {background: #24c6dc;}
-	      25%  {background: #514A9D;}
-	      45%  {background: #ff9a9e;}
-	      65%  {background: #ff7eb3;}
-	      80%  {background: #50c9c3;}	     
-	      100% {background: #24c6dc;}
-	}
+	      0%   {background: #FF9A9E;}
+	      25%  {background: #FF7EB3;}
+	      45%  {background: #9467C1;}
+	      65%  {background: #EE9CA7;}
+	      80%  {background: #FCB69F;}	     
+	      100% {background: #FF9A9E;}
+	      	}
     @keyframes colorchange
     {
-	      0%   {background: #24c6dc;}
-	      25%  {background: #514A9D;}
-	      45%  {background: #ff9a9e;}
-	      65%  {background: #ff7eb3;}
-	      80%  {background: #50c9c3;}	     
-	      100% {background: #24c6dc;}
-	}
+	      0%   {background: #FF9A9E;}
+	      25%  {background: #FF7EB3;}
+	      45%  {background: #9467C1;}
+	      65%  {background: #EE9CA7;}
+	      80%  {background: #FCB69F;}	     
+	      100% {background: #FF9A9E;}
+	      	}
     @-webkit-keyframes colorchange
     {
-	      0%   {background: #24c6dc;}
-	      25%  {background: #514A9D;}
-	      45%  {background: #ff9a9e;}
-	      65%  {background: #ff7eb3;}
-	      80%  {background: #50c9c3;}	     
-	      100% {background: #24c6dc;} 
-   }
+	      0%   {background: #FF9A9E;}
+	      25%  {background: #FF7EB3;}
+	      45%  {background: #9467C1;}
+	      65%  {background: #EE9CA7;}
+	      80%  {background: #FCB69F;}	     
+	      100% {background: #FF9A9E;}
+	         }
     
 ::-webkit-input-placeholder { /* Edge */
   color: #eee;
