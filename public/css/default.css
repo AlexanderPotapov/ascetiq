@@ -33,33 +33,31 @@ body, html {
     
 	@-moz-keyframes colorchange 
 	{
-	      0%   {background: rgba(255, 0, 89, 1);}
-	      33%  {background: rgba(0, 179, 255, 1);}
-	      66%  {background: rgba(255, 0, 89, 1);}
-	      100%  {background: rgba(0, 179, 255, 1);}
+	      0%   {background: #ff9a9e;}
+	      33%  {background: #80d0c7;}
+	      66%  {background: #a1c4fd;}
+	      100%  {background: #09203f;}
 	}
 	@-o-keyframes colorchange 
 	{
-	      0%   {background: rgba(255, 0, 89, 1);}
-	      33%  {background: rgba(0, 179, 255, 1);}
-	      66%  {background: rgba(255, 0, 89, 1);}
-	      100%  {background: rgba(0, 179, 255, 1);}
-	}
+	      0%   {background: #ff9a9e;}
+	      33%  {background: #80d0c7;}
+	      66%  {background: #a1c4fd;}
+	      100%  {background: #09203f;}
+	      	}
     @keyframes colorchange
     {
-	      0%   {background: rgba(255, 0, 89, 1);}
-	      33%  {background: rgba(0, 179, 255, 1);}
-	      66%  {background: rgba(255, 0, 89, 1);}
-	      100%  {background: rgba(0, 179, 255, 1);}
-    }
+	      0%   {background: #ff9a9e;}
+	      33%  {background: #80d0c7;}
+	      66%  {background: #a1c4fd;}
+	      100%  {background: #09203f;}    }
 
     @-webkit-keyframes colorchange
     {
-	      0%   {background: rgba(255, 0, 89, 1);}
-	      33%  {background: rgba(0, 179, 255, 1);}
-	      66%  {background: rgba(255, 0, 89, 1);}
-	      100%  {background: rgba(0, 179, 255, 1);}
-    }
+	      0%   {background: #ff9a9e;}
+	      33%  {background: #80d0c7;}
+	      66%  {background: #a1c4fd;}
+	      100%  {background: #09203f;}    }
     
 ::-webkit-input-placeholder { /* Edge */
   color: #eee;
