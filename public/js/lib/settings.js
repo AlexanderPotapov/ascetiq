@@ -11,7 +11,7 @@ define({
   <br />- Only persons you have invited can read this, as all messages are encrypted in browser;
   <br />- Messages are gone forever in 1 minute after being sent.<br /><br />
         Ascetiq does not store messages or has access to them, as conversations 
-        are encrypted in your browser by random key or key that you have set. ¯\_(ツ)_/¯
+        are encrypted in your browser by random key or key that you have set.
         <br /><br/>Try /help, /nick, /title, /count ...<br /><br/>
 		<hr />
         </pre>',
