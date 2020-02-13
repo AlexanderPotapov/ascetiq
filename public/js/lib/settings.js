@@ -4,7 +4,19 @@ define({
 
 	ttl: 1200000,
 
-	motd: '',
+	motd: '
+		<li>
+		<b>Ascetiq is the first online chat that simulate the real talk</b>.
+		<br /><br />
+		- Invite the person to the same chat to start the conversation; 
+  <br />- Only persons you have invited can read this, as all messages are encrypted in browser;
+  <br />- Messages are gone forever in 1 minute after being sent.<br /><br />
+        Ascetiq don\'t store messages or has access to them, as conversations 
+        are encrypted in your browser by random key or key that you have set. ¯\_(ツ)_/¯
+        <br /><br/>Try /help, /nick, /title, /count ...<br /><br/>
+		<hr />
+        </li>
+	',
 
 	nick: {
 		maxLen: 20,
