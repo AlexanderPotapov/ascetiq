@@ -1,7 +1,5 @@
 #!/bin/sh
 
-node node_modules/requirejs/bin/r.js -o requirejs.build.js
-
 set -e
 
 # /usr/src/app/external-public kan be mounted as a volume on host to expose
