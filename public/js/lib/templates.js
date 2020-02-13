@@ -5,7 +5,7 @@ define({
 	help: '<pre>                                                                \n' +
 		'Ascetiq - encrypted instant chat.                                      \n' +
 		'                                                                       \n' +
-		'------------------------------------------------------------------------	\n' +
+		'----------------------------------------------------------------------------------------\n' +
 		'                                                                       \n' +
 		'Client:                                                    			\n' +
 		'	/key		StrongPassphrase	Sets encryption key                 \n' +
@@ -37,7 +37,7 @@ define({
 		'<strong>It is highly recommended to use incognito mode while chatting, \n' +
 		'to prevent browsers from keeping history or cache.</strong>            \n' +
 		'                                                                       \n' +
-		'------------------------------------------------------------------------	\n' +
+		'----------------------------------------------------------------------------------------\n' +
 		'</pre>',
 
 	default_nick: 'Anonymous',

@@ -73,12 +73,12 @@ body, html {
 #chat i {
 	font-style: normal;
 }
-#chat i.motd	{ color: #FECF84; display:inline-block; line-height: 12px !important; }
+#chat i.motd	{ color: #FECF84; display:inline-block; }
 #chat i.info	{color: #FECF84;}
 #chat i.server	{ color: #FECF84; }
 #chat i.error	{ color: #FECF84; }
 #chat i.message	{color: #fff;}
-#chat i.nick	{color: #fff; }
+#chat i.nick	{color: #FECF84; }
 #chat i.fatal	{ color: #FECF84; }
 
 /*------------------------------------*\
