@@ -45,13 +45,12 @@ define({
 	// All post templates will have access to the properties in the 'settings' module, 
 	// along with the current nick, room, mute-status and of course the message ('text').
 	post: {
-		motd: 		'<li id="{id}"><i class="motd">{text}</i></li>',
-		info: 		'<li id="{id}" title="{timestamp}"><i class="info">{text}</i></li><style>#{id} {animation: fadeOut{id} 60s; -webkit-animation: fadeOut{id} 60s; -moz-animation: fadeOut{id} 60s; -o-animation: fadeOut{id} 60s; } @keyframes fadeOut{id}{0%{opacity:1}100%{opacity:0}}@-moz-keyframes fadeOut{id}{0%{opacity:1}100%{opacity:0}}@-webkit-keyframes fadeOut{id}{0%{opacity:1}100%{opacity:0}}@-o-keyframes fadeOut{id}{0%{opacity:1}100%{opacity:0}}@-ms-keyframes fadeOut{id}{0%{opacity:1}100%{opacity:0}}</style>',
-		server: 	'<li id="{id}" title="{timestamp}"><i class="server">{text}</i></li><style> #{id} {animation: fadeOut{id} 60s; -webkit-animation: fadeOut{id} 60s; -moz-animation: fadeOut{id} 60s; -o-animation: fadeOut{id} 60s; }  @keyframes fadeOut{id}{0%{opacity:1}100%{opacity:0}}@-moz-keyframes fadeOut{id}{0%{opacity:1}100%{opacity:0}}@-webkit-keyframes fadeOut{id}{0%{opacity:1}100%{opacity:0}}@-o-keyframes fadeOut{id}{0%{opacity:1}100%{opacity:0}}@-ms-keyframes fadeOut{id}{0%{opacity:1}100%{opacity:0}}</style>',
-		error: 		'<li id="{id}" title="{timestamp}"><i class="error">{text}</i></li><style>#{id} {animation: fadeOut{id} 60s; -webkit-animation: fadeOut{id} 60s; -moz-animation: fadeOut{id} 60s; -o-animation: fadeOut{id} 60s; }  @keyframes fadeOut{id}{0%{opacity:1}100%{opacity:0}}@-moz-keyframes fadeOut{id}{0%{opacity:1}100%{opacity:0}}@-webkit-keyframes fadeOut{id}{0%{opacity:1}100%{opacity:0}}@-o-keyframes fadeOut{id}{0%{opacity:1}100%{opacity:0}}@-ms-keyframes fadeOut{id}{0%{opacity:1}100%{opacity:0}}</style>',
-		message: 	'<li id="{id}" title="{timestamp}"><i class="nick">{nick}</i> <i class="message">{text}</i></li><style>#{id} {animation: fadeOut{id} 60s; -webkit-animation: fadeOut{id} 60s; -moz-animation: fadeOut{id} 60s; -o-animation: fadeOut{id} 60s; } @keyframes fadeOut{id}{0%{opacity:1}100%{opacity:0}}@-moz-keyframes fadeOut{id}{0%{opacity:1}100%{opacity:0}}@-webkit-keyframes fadeOut{id}{0%{opacity:1}100%{opacity:0}}@-o-keyframes fadeOut{id}{0%{opacity:1}100%{opacity:0}}@-ms-keyframes fadeOut{id}{0%{opacity:1}100%{opacity:0}}</style>'
-		},
-
+		motd: 		'<li id="{id}"><i class="motd">{text}</i></li><script>function fade({id}) {var op = 1;var timer = setInterval(function () {if (op <= 0.1){clearInterval(timer);element.style.display = "none";}element.style.opacity = op; element.style.filter = "alpha(opacity=" + op * 100 + ")"; op -= op * 0.1; }, 50); }</script>',
+		info: 		'<li id="{id}" title="{timestamp}"><i class="info">{text}</i></li>',
+		server: 	'<li id="{id}" title="{timestamp}"><i class="server">{text}</i></li>',
+		error: 		'<li id="{id}" title="{timestamp}"><i class="error">{text}</i></li>',
+		message: 	'<li id="{id}" title="{timestamp}"><i class="nick">{nick}</i> <i class="message">{text}</i></li>'
+	},
 
 	// All message templates will have access to the properties in the 'settings' module, 
 	// along with the current nick, room and mute-status.
