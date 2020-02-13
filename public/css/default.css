@@ -20,7 +20,7 @@ body, html {
 	overflow: hidden;
 	padding: 0px;
 	margin:0px;
-	color: #fff;
+	color: #FECF84;
 	background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
 	background-size: 400% 400%;
 	animation: gradient 15s ease infinite;
@@ -73,13 +73,13 @@ body, html {
 #chat i {
 	font-style: normal;
 }
-#chat i.motd	{ color: #fff; display:inline-block; line-height: 12px !important; }
-#chat i.info	{color: #fff;}
-#chat i.server	{ color: #fff; }
-#chat i.error	{ color: #fff; }
+#chat i.motd	{ color: #FECF84; display:inline-block; line-height: 12px !important; }
+#chat i.info	{color: #FECF84;}
+#chat i.server	{ color: #FECF84; }
+#chat i.error	{ color: #FECF84; }
 #chat i.message	{color: #fff;}
 #chat i.nick	{color: #fff; }
-#chat i.fatal	{ color: #111; }
+#chat i.fatal	{ color: #FECF84; }
 
 /*------------------------------------*\
 	INPUT & LOADER
