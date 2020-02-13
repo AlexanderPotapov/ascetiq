@@ -20,7 +20,7 @@ body, html {
 	overflow: hidden;
 	padding: 0px;
 	margin:0px;
-	color: rgba(255,255,255,0.64);
+	color: rgba(255,255,255,0.75);
     animation: colorchange 60s infinite; /* animation-name followed by duration in seconds*/
     -webkit-animation: colorchange 60s infinite; /* Chrome and Safari */
     -moz-animation: colorchange 60s infinite;
@@ -125,12 +125,12 @@ hr {
 	font-style: normal;
 }
 #chat i.motd	{ color: #fff; display:inline-block; }
-#chat i.info	{color: rgba(255,255,255,0.64);}
-#chat i.server	{ color: rgba(255,255,255,0.64); }
-#chat i.error	{ color: rgba(255,255,255,0.64); }
+#chat i.info	{color: rgba(255,255,255,0.75);}
+#chat i.server	{ color: rgba(255,255,255,0.75); }
+#chat i.error	{ color: rgba(255,255,255,0.75); }
 #chat i.message	{color: #fff;}
-#chat i.nick	{color: rgba(255,255,255,0.64); }
-#chat i.fatal	{ color: rgba(255,255,255,0.64); }
+#chat i.nick	{color: rgba(255,255,255,0.75); }
+#chat i.fatal	{ color: rgba(255,255,255,0.75); }
 
 /*------------------------------------*\
 	INPUT & LOADER
