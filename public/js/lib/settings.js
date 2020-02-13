@@ -2,7 +2,7 @@ define({
 
 	title: 'Ascetiq - Online',
 
-	ttl: 6000,
+	ttl: 60000,
 
 	motd: '<b>Ascetiq is the first online chat that simulate the real talk</b>.<hr>',
 
