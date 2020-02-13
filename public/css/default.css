@@ -23,8 +23,7 @@ body, html {
 	color: #FECF84;
 	background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
 	background-size: 400% 400%;
-	animation: gradient 30s ease infinite;
-	-webkit-font-smoothing: subpixel-antialiased;
+	animation: gradient 15s ease infinite;
 }
 
 @keyframes gradient {
@@ -40,15 +39,15 @@ body, html {
 }
 
 ::-webkit-input-placeholder { /* Edge */
-  color: white;
+  color: #eee;
 }
 
 :-ms-input-placeholder { /* Internet Explorer 10-11 */
-  color: white;
+  color: #eee;
 }
 
 ::placeholder {
-  color: white;
+  color: #eee;
 }
 
 hr {
@@ -74,8 +73,9 @@ hr {
 	list-style-type: none;
 	padding:0;
 	margin:0;
-	border-bottom: 1px solid rgba(255,255,255,0.6);
+	border-bottom: 1px solid rgba(255,255,255,0.53);
 	padding-bottom: 15px;
+	-webkit-font-smoothing: subpixel-antialiased;
 }
 
 /* Messages */
