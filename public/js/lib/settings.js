@@ -4,8 +4,8 @@ define({
 
 	ttl: 1200000,
 
-	motd: '<li>
-		<b>Ascetiq is the first online chat that simulate the real talk</b>.
+	motd: '
+		<pre>Ascetiq is the first online chat that simulate the real talk</b>.
 		<br /><br />
 		- Invite the person to the same chat to start the conversation; 
   <br />- Only persons you have invited can read this, as all messages are encrypted in browser;
@@ -14,7 +14,7 @@ define({
         are encrypted in your browser by random key or key that you have set. ¯\_(ツ)_/¯
         <br /><br/>Try /help, /nick, /title, /count ...<br /><br/>
 		<hr />
-        </li>',
+        </pre>',
 
 	nick: {
 		maxLen: 20,
