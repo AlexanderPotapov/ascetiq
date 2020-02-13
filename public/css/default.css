@@ -111,6 +111,7 @@ hr {
 #chat li {
 	padding: 2px 15px;
 	color: #fff;
+	opacity: 1;
 }
 
 #chat li .timestamp {
