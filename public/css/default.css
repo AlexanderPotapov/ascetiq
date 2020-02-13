@@ -51,6 +51,13 @@ body, html {
   color: white;
 }
 
+hr {
+    margin-top: 22px;
+    margin-bottom: 22px;
+    border: 0;
+    border-top: 1px solid #fafafa;
+}    
+
 .good 		{ color: #99FF99; }
 .bad 		{ color: #ff7777; }
 .info 		{ color: #99FFFF; }
