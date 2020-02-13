@@ -21,23 +21,46 @@ body, html {
 	padding: 0px;
 	margin:0px;
 	color: #FECF84;
-	background: linear-gradient(-45deg, #ee7752, #23d5ab);
-	background-size: 400% 400%;
-	animation: gradient 35s ease infinite;
+    animation: colorchange 50s infinite; /* animation-name followed by duration in seconds*/
+    -webkit-animation: colorchange 50s infinite; /* Chrome and Safari */
+    -moz-animation: colorchange 50s infinite;
+	-o-animation: colorchange 50s infinite;
+	animation: colorchange 50s infinite;    
 }
 
-@keyframes gradient {
-	0% {
-		background-position: 0% 50%;
-	}
-	50% {
-		background-position: 100% 50%;
-	}
-	100% {
-		background-position: 0% 50%;
-	}
-}
 
+    background: -o-linear-gradient(45deg, rgba(255, 0, 89, 1) 0%, rgba(0, 179, 255, 1) 33%, rgba(255, 0, 89, 1) 66%, rgba(0, 179, 255, 1) 100%);
+    
+	@-moz-keyframes colorchange 
+	{
+	      0%   {background: rgba(255, 0, 89, 1);}
+	      33%  {background: rgba(0, 179, 255, 1);}
+	      66%  {background: rgba(255, 0, 89, 1);}
+	      100%  {background: rgba(0, 179, 255, 1);}
+	}
+	@-o-keyframes colorchange 
+	{
+	      0%   {background: rgba(255, 0, 89, 1);}
+	      33%  {background: rgba(0, 179, 255, 1);}
+	      66%  {background: rgba(255, 0, 89, 1);}
+	      100%  {background: rgba(0, 179, 255, 1);}
+	}
+    @keyframes colorchange
+    {
+	      0%   {background: rgba(255, 0, 89, 1);}
+	      33%  {background: rgba(0, 179, 255, 1);}
+	      66%  {background: rgba(255, 0, 89, 1);}
+	      100%  {background: rgba(0, 179, 255, 1);}
+    }
+
+    @-webkit-keyframes colorchange
+    {
+	      0%   {background: rgba(255, 0, 89, 1);}
+	      33%  {background: rgba(0, 179, 255, 1);}
+	      66%  {background: rgba(255, 0, 89, 1);}
+	      100%  {background: rgba(0, 179, 255, 1);}
+    }
+    
 ::-webkit-input-placeholder { /* Edge */
   color: #eee;
 }
