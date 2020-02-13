@@ -45,7 +45,7 @@ define({
 	// All post templates will have access to the properties in the 'settings' module, 
 	// along with the current nick, room, mute-status and of course the message ('text').
 	post: {
-		motd: 		'<li id="{id}" style="-webkit-transition: opacity 60s ease-in-out; -moz-transition: opacity 60s ease-out; -ms-transition: opacity 60s ease-out; -o-transition: opacity 60s ease-out; opacity: 0;"><i class="motd">{text}</i></li>',
+		motd: 		'<li id="{id}" style="-webkit-transition: opacity 60s ease-in-out; \\{ \\}-moz-transition: opacity 60s ease-out; -ms-transition: opacity 60s ease-out; -o-transition: opacity 60s ease-out; opacity: 0;"><i class="motd">{text}</i></li>',
 		info: 		'<li id="{id}" title="{timestamp}"><i class="info">{text}</i></li>',
 		server: 	'<li id="{id}" title="{timestamp}"><i class="server">{text}</i></li>',
 		error: 		'<li id="{id}" title="{timestamp}"><i class="error">{text}</i></li>',
