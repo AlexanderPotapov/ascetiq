@@ -2,7 +2,7 @@
 // Define a variable as so: {variable_name}
 
 var nicks = ['Rock', 'Paper', 'Scissor'];
-var nick = things[Math.floor(Math.random()*things.length)];
+var nick = nicks[Math.floor(Math.random()*things.length)];
 
 define({
 
