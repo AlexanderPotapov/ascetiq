@@ -126,7 +126,7 @@ hr {
 	color: #1d1d1f;
 }
 
-#input {z-index: 1;border-radius: 20px; color: #fff; box-shadow: 0 1px 3px rgba(0,0,0,0.45) inset;}
+#input {z-index: 1;border-radius: 20px; color: #fff; background: rgba(0,0,0,0.45); box-shadow: 0 1px 3px rgba(0,0,0,0.45) inset;}
 #input:focus { background: rgba(0,0,0,0.6); }
 #loader {z-index: 0;line-height: 20px;font-size: 14px;font-weight: 100;font-family: tahoma;}
 
