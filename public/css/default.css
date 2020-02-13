@@ -21,15 +21,12 @@ body, html {
 	padding: 0px;
 	margin:0px;
 	color: rgba(255,255,255,0.64);
-    animation: colorchange 50s infinite; /* animation-name followed by duration in seconds*/
-    -webkit-animation: colorchange 50s infinite; /* Chrome and Safari */
-    -moz-animation: colorchange 50s infinite;
-	-o-animation: colorchange 50s infinite;
-	animation: colorchange 50s infinite;    
+    animation: colorchange 60s infinite; /* animation-name followed by duration in seconds*/
+    -webkit-animation: colorchange 60s infinite; /* Chrome and Safari */
+    -moz-animation: colorchange 60s infinite;
+	-o-animation: colorchange 60s infinite;
+	animation: colorchange 60s infinite;    
 }
-
-
-    background: -o-linear-gradient(45deg, rgba(255, 0, 89, 1) 0%, rgba(0, 179, 255, 1) 33%, rgba(255, 0, 89, 1) 66%, rgba(0, 179, 255, 1) 100%);
     
 	@-moz-keyframes colorchange 
 	{
@@ -67,6 +64,51 @@ body, html {
 	      80%  {background: #FCB69F;}	     
 	      100% {background: #FF9A9E;}
 	         }
+	         
+	         
+@keyframes fadeOut {
+  0% {
+    opacity:1;
+  }
+  100% {
+    opacity:0;
+  }
+}
+
+@-moz-keyframes fadeOut {
+  0% {
+    opacity:1;
+  }
+  100% {
+    opacity:0;
+  }
+}
+
+@-webkit-keyframes fadeOut {
+  0% {
+    opacity:1;
+  }
+  100% {
+    opacity:0;
+  }
+}
+
+@-o-keyframes fadeOut {
+  0% {
+    opacity:1;
+  }
+  100% {
+    opacity:0;
+  }
+}
+
+@-ms-keyframes fadeOut {
+  0% {
+    opacity:1;
+  }
+  100% {
+    opacity:0;
+}	         
     
 ::-webkit-input-placeholder { /* Edge */
   color: #eee;
