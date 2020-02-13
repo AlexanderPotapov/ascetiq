@@ -35,28 +35,28 @@ body, html {
 	{
 	      0%   {background: #ff9a9e;}
 	      33%  {background: #80d0c7;}
-	      66%  {background: #a1c4fd;}
+	      66%  {background: #B7F8DB;}
 	      100%  {background: #09203f;}
 	}
 	@-o-keyframes colorchange 
 	{
 	      0%   {background: #ff9a9e;}
 	      33%  {background: #80d0c7;}
-	      66%  {background: #a1c4fd;}
+	      66%  {background: #B7F8DB;}
 	      100%  {background: #09203f;}
 	      	}
     @keyframes colorchange
     {
 	      0%   {background: #ff9a9e;}
 	      33%  {background: #80d0c7;}
-	      66%  {background: #a1c4fd;}
+	      66%  {background: #B7F8DB;}
 	      100%  {background: #09203f;}    }
 
     @-webkit-keyframes colorchange
     {
 	      0%   {background: #ff9a9e;}
 	      33%  {background: #80d0c7;}
-	      66%  {background: #a1c4fd;}
+	      66%  {background: #B7F8DB;}
 	      100%  {background: #09203f;}    }
     
 ::-webkit-input-placeholder { /* Edge */
