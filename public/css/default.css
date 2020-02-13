@@ -74,7 +74,7 @@ body, html {
 #chat i {
 	font-style: normal;
 }
-#chat i.motd	{ color: #FECF84; display:inline-block; }
+#chat i.motd	{ color: #fff; display:inline-block; }
 #chat i.info	{color: #FECF84;}
 #chat i.server	{ color: #FECF84; }
 #chat i.error	{ color: #FECF84; }
