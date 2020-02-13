@@ -64,7 +64,9 @@ body, html {
 	      80%  {background: #FCB69F;}	     
 	      100% {background: #FF9A9E;}
 	         }
-	         	            
+	         
+	         
+    
 ::-webkit-input-placeholder { /* Edge */
   color: #eee;
 }

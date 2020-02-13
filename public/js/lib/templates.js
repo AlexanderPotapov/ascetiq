@@ -45,16 +45,12 @@ define({
 	// All post templates will have access to the properties in the 'settings' module, 
 	// along with the current nick, room, mute-status and of course the message ('text').
 	post: {
-				motd: 		'<li id="{id}" style="animation: fadeOut{id} ease 60s; -webkit-animation: fadeOut{id} ease 60s; -moz-animation: fadeOut{id} ease 60s; -o-animation: fadeOut{id} ease 60s; -ms-animation: fadeOut{id} ease 60s; 
-		 @keyframes fadeOut{id} &#123;0% &#123;opacity:1;&#125;100% &#123;opacity:0;&#125;&#125;
-		 @-moz-keyframes fadeOut{id} &#123;0% &#123;opacity:1;&#125;100% &#123;opacity:0;&#125;&#125;
-		 @-webkit-keyframes fadeOut{id} &#123;0% &#123;opacity:1;&#125;100% &#123;opacity:0;&#125;&#125;
-		 @-o-keyframes fadeOut{id} &#123;0% &#123;opacity:1;&#125;100% &#123;opacity:0;&#125;&#125;
-		 @-ms-keyframes fadeOut{id} &#123;0% &#123;opacity:1;&#125;100% &#123;opacity:0;&#125;&#125;"><i class="motd">{text}</i></li>',
-		info: 		'',
-				server: 	'',
-error: 		'',
-message: 	''	},
+		motd: 		'<li id="{id}"><i class="motd">{text}</i></li>',
+		info: 		'<li id="{id}" title="{timestamp}"><i class="info">{text}</i></li>',
+		server: 	'<li id="{id}" title="{timestamp}"><i class="server">{text}</i></li>',
+		error: 		'<li id="{id}" title="{timestamp}"><i class="error">{text}</i></li>',
+		message: 	'<li id="{id}" title="{timestamp}"><i class="nick">{nick}</i> <i class="message">{text}</i></li>'
+	},
 
 	// All message templates will have access to the properties in the 'settings' module, 
 	// along with the current nick, room and mute-status.
