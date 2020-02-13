@@ -13,7 +13,7 @@ define({
 
 	key: {
 		maxLen: 1024,
-		minLen: 8,	
+		minLen: 6,	
 	},
 
 	room: {
