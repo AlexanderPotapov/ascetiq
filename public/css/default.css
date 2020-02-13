@@ -64,53 +64,7 @@ body, html {
 	      80%  {background: #FCB69F;}	     
 	      100% {background: #FF9A9E;}
 	         }
-	         
-	         
-			@keyframes fadeOut {
-			  0% {
-			    opacity:1;
-			  }
-			  100% {
-			    opacity:0;
-			  }
-			}
-			
-			@-moz-keyframes fadeOut {
-			  0% {
-			    opacity:1;
-			  }
-			  100% {
-			    opacity:0;
-			  }
-			}
-			
-			@-webkit-keyframes fadeOut {
-			  0% {
-			    opacity:1;
-			  }
-			  100% {
-			    opacity:0;
-			  }
-			}
-			
-			@-o-keyframes fadeOut {
-			  0% {
-			    opacity:1;
-			  }
-			  100% {
-			    opacity:0;
-			  }
-			}
-			
-			@-ms-keyframes fadeOut {
-			  0% {
-			    opacity:1;
-			  }
-			  100% {
-			    opacity:0;
-			  }	         
-			}
-    
+	         	            
 ::-webkit-input-placeholder { /* Edge */
   color: #eee;
 }
