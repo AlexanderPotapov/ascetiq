@@ -38,6 +38,19 @@ body, html {
 		background-position: 0% 50%;
 	}
 }
+
+::-webkit-input-placeholder { /* Edge */
+  color: white;
+}
+
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+  color: white;
+}
+
+::placeholder {
+  color: white;
+}
+
 .good 		{ color: #99FF99; }
 .bad 		{ color: #ff7777; }
 .info 		{ color: #99FFFF; }
@@ -107,7 +120,6 @@ body, html {
 }
 
 #input {z-index: 1;border-radius: 20px;background: rgba(255,255,255,0.65);}
-#input:active {background: rgba(255,255,255,0.85);}
 #loader {z-index: 0;line-height: 20px;font-size: 14px;font-weight: 100;font-family: tahoma;}
 
 /*------------------------------------*\
