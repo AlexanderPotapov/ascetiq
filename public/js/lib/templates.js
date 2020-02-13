@@ -49,7 +49,7 @@ define({
 		info: 		'<li id="{id}" title="{timestamp}"><i class="info">{text}</i></li>',
 		server: 	'<li id="{id}" title="{timestamp}"><i class="server">{text}</i></li>',
 		error: 		'<li id="{id}" title="{timestamp}"><i class="error">{text}</i></li>',
-		message: 	'<li id="{id}" title="{timestamp}"><i class="nick">{nick}:</i> <i class="message">{text}</i></li>'
+		message: 	'<li id="{id}" title="{timestamp}"><i class="nick">{nick}</i> <i class="message">{text}</i></li>'
 	},
 
 	// All message templates will have access to the properties in the 'settings' module, 
@@ -60,7 +60,7 @@ define({
 		key_ok: 				'Key set, you can now start communicating.',
 		key_no_host: 			'You have to connect to a host before setting the key.',
 
-		join_no_host: 			'You have to connect to a host before joining a room.',
+		join_no_host: 			'You have to connect to a host before joining a room. Try to reload this page.',
 
 		nick_to_short: 			'Nickname is too short, it has to be at least {nick_minLen} characters long. Try again.',
 		nick_to_long: 			'Nickname is too long, it can be at most {nick_maxLen} characters long. Try again.',
