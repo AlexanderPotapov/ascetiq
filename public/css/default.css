@@ -16,11 +16,11 @@ html {
 body, html {
 	min-height: 100%;
 	min-width: 600px;
-	background-color: #f0f0f0;
+	background-color: #f3f3f3;
 	overflow: hidden;
 	padding: 0px;
 	margin:0px;
-	color: #555;
+	color: #1C1C1F;
 }
 
 .good 		{ color: #99FF99; }
@@ -46,11 +46,11 @@ body, html {
 /* Messages */
 #chat li {
 	padding: 2px 15px;
-	color: #777;
+	color: #86868b;
 }
 
 #chat li .timestamp {
-	color: #777;
+	color: #86868b;
 	display: none;
 }
 
@@ -59,13 +59,13 @@ body, html {
 #chat i {
 	font-style: normal;
 }
-#chat i.motd	{ color: #777; display:inline-block; line-height: 12px !important; }
-#chat i.info	{color: #777;}
-#chat i.server	{ color: #777; }
-#chat i.error	{ color: #777; }
-#chat i.message	{color: #555;}
-#chat i.nick	{color: #747474;font-weight: bold;}
-#chat i.fatal	{ color: #777; }
+#chat i.motd	{ color: #86868b; display:inline-block; line-height: 12px !important; }
+#chat i.info	{color: #86868b;}
+#chat i.server	{ color: #86868b; }
+#chat i.error	{ color: #86868b; }
+#chat i.message	{color: #1C1C1F;}
+#chat i.nick	{color: #86868b;font-weight: bold;}
+#chat i.fatal	{ color: #86868b; }
 
 /*------------------------------------*\
 	INPUT & LOADER
