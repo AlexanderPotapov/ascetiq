@@ -2,7 +2,7 @@ define({
 
 	title: 'Ascetiq - Online',
 
-	ttl: 120,
+	ttl: 600,
 
 	motd: '',
 
