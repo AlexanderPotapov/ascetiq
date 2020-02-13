@@ -4,7 +4,7 @@ define({
 
 	ttl: 60000,
 
-	motd: '<b>Ascetiq is the first online chat that simulate the real talk</b>.<hr>',
+	motd: '<b>Ascetiq is the first online simulator of real talk</b>.<hr>',
 
 	nick: {
 		maxLen: 20,
