@@ -93,9 +93,9 @@ define(['$', 'castrato', 'settings', 'templates', 'sounds', 'room', 'notificatio
 				commands.post('motd', message);
 			},
 
-			info: function (message) {
-				commands.post('info', message);
-			},
+		//	info: function (message) {
+		//		commands.post('info', message);
+		//	},
 
 			error: function (message) {
 				commands.post('error', message);
