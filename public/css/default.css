@@ -68,12 +68,12 @@ hr {
 #chat {
 	left: 0;
 	right: 0;
-	bottom: 61px;
+	bottom: 52px;
 	position: absolute;
 	list-style-type: none;
 	padding:0;
 	margin:0;
-	border-bottom: 1px solid rgba(255,255,255,0.53);
+	border-bottom: 1px solid rgba(0,0,0,0.45);
 	padding-bottom: 15px;
 	-webkit-font-smoothing: subpixel-antialiased;
 }
@@ -106,11 +106,11 @@ hr {
 	INPUT & LOADER
 \*------------------------------------*/
 #input_wrapper {
-	right: 15px;
-	bottom: 8px;
-	left: 15px;
-	position: absolute;
-	height: 40px;
+    right: 15px;
+    bottom: 8px;
+    left: 15px;
+    position: absolute;
+    height: 35px;
 }
 
 #input,
