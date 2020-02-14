@@ -105,7 +105,7 @@ define({
 		person_joined: 			'A person joined this room.',
 		person_left: 			'A person left this room.',
 		person_count: 			'There are {payload} people in this room, including you.',
-		person_single:			'You are the only person in this room. It\'s time to invite someone — send the link',
+		person_single:			'You are the only person in this room. It\'s time to invite someone — just send the link.',
 		command_failed: 		'Server command failed, you\'re probably trying to du something bogus.',
 		bogus: 					'Received a bogus message from server.'
 	},
