@@ -4,7 +4,7 @@ define({
 
 	ttl: 60000,
 
-	motd: '<b>Enignum is the simplest way to start encrypted instant chat</b>.<hr>Messages are encrypted in your browser, never stored in the database and will be erased after 60 seconds from the screen.',
+	motd: '<b>Enignum is the simplest way to start encrypted instant chat</b>.Messages are encrypted in your browser, never stored in the database and will be erased after 60 seconds from the screen.&copy; 2020 LDM Sàrl, France.<hr>',
 
 	nick: {
 		maxLen: 20,
