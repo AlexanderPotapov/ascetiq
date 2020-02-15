@@ -4,7 +4,8 @@ define({
 
 	ttl: 60000,
 
-	motd: '<b>Ascetiq is the first online simulator of real talk</b>.<hr>',
+	motd: '<b>Enignum is the simplest way to start encrypted instant chat</b>.<hr>
+	Messages are encrypted in your browser, never stored in the database and will be erased after 60 seconds from the screen.',
 
 	nick: {
 		maxLen: 20,
