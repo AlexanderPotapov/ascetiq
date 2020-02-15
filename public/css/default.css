@@ -30,39 +30,39 @@ body, html {
     
 	@-moz-keyframes colorchange 
 	{
-	      0%   {background: #FF9A9E;}
+	      0%   {background: #de8c8f;}
 	      25%  {background: #FF7EB3;}
 	      45%  {background: #9467C1;}
-	      65%  {background: #EE9CA7;}
-	      80%  {background: #FCB69F;}	     
-	      100% {background: #FF9A9E;}
+	      65%  {background: #9cb7ee;}
+	      80%  {background: #7fd0a8;}	     
+	      100% {background: #de8c8f;}
 	}
 	@-o-keyframes colorchange 
 	{
 	      0%   {background: #FF9A9E;}
 	      25%  {background: #FF7EB3;}
 	      45%  {background: #9467C1;}
-	      65%  {background: #EE9CA7;}
-	      80%  {background: #FCB69F;}	     
+	      65%  {background: #9cb7ee;}
+	      80%  {background: #7fd0a8;}	     
 	      100% {background: #FF9A9E;}
 	      	}
     @keyframes colorchange
     {
-	      0%   {background: #FF9A9E;}
+	      0%   {background: #de8c8f;}
 	      25%  {background: #FF7EB3;}
 	      45%  {background: #9467C1;}
-	      65%  {background: #EE9CA7;}
-	      80%  {background: #FCB69F;}	     
-	      100% {background: #FF9A9E;}
+	      65%  {background: #9cb7ee;}
+	      80%  {background: #7fd0a8;}	     
+	      100% {background: #de8c8f;}
 	      	}
     @-webkit-keyframes colorchange
     {
-	      0%   {background: #FF9A9E;}
+	      0%   {background: #de8c8f;}
 	      25%  {background: #FF7EB3;}
 	      45%  {background: #9467C1;}
-	      65%  {background: #EE9CA7;}
-	      80%  {background: #FCB69F;}	     
-	      100% {background: #FF9A9E;}
+	      65%  {background: #9cb7ee;}
+	      80%  {background: #7fd0a8;}	     
+	      100% {background: #de8c8f;}
 	         }
 	         
 	         
